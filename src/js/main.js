@@ -17,9 +17,9 @@ const adalabSelection ="La adalaber seleccionada es:";
 document.querySelector(".lorem").innerHTML = "<div><h1>Lorem ipsum</h1><img src='http://via.placeholder.com/350x150'/><p>Lorem ipsum</p></div>" 
 
 
-document.querySelector('.myAddress').innerHTML = myAddress;
-const myAddress ="Madrid, 28009";
-let address ="Valladolid, 47009";
+let myaddress = 'Madrid, 28009';
+myaddress = 'Valladolid, 47009';
+
 
 
 
