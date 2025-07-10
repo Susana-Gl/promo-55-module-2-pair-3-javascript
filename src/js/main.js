@@ -18,7 +18,7 @@ document.querySelector(".lorem").innerHTML = "<div><h1>Lorem ipsum</h1><img src=
 
 let myaddress = 'Madrid, 28009';
 myaddress = 'Valladolid, 47009';
-document.querySelector(".myaddress").innerHTML = myAddress;
+//document.querySelector(".myaddress").innerHTML = myAddress;
 
 
 
@@ -48,3 +48,45 @@ if (number < 12) {
 } else {
   console.log('el número no es 123123125')
 }
+
+const numb1 =6 ;
+const numb2 =12 ;
+
+const sum = numb1 + numb2;
+console.log (sum);
+
+
+const kiwiPrice = 5;
+const pearPrice = 2;
+const grapePrice = 4;
+
+const finalKiwiPrice = (kiwiPrice * 2);
+const finalPearPrice = ( pearPrice * 3);
+const finalGrapePrice = ( grapePrice / 2);
+console.log ("finalKiwiPrice, finalPearPrice, finalGrapePrice",finalKiwiPrice, finalPearPrice, finalGrapePrice);
+
+
+const finalPrice = (finalKiwiPrice + finalPearPrice + finalGrapePrice ); 
+console.log ("finalPrice", finalPrice);
+
+//Crea un programa que nos diga cuántas horas en total hemos vivido. Por ejemplo, si alguien tiene 60 años, este código debería mostrar un mensaje con el número 525600.
+
+const hoursYear = 8760;
+const michelleAge = 43;
+const susanaAge= 23;
+
+const michelleHours = (hoursYear * michelleAge);
+const susanaHours = ( hoursYear * susanaAge);
+console.log ("michelleHours , susanaHours" , michelleHours , susanaHours);
+
+// Cuántas letras tiene tu nombre
+
+
+const name1 = "Michelle";
+console.log(name1.length);
+const name2 = "Susana";
+console.log(name2.length);
+
+
+
+
