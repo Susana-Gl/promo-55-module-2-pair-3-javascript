@@ -49,8 +49,8 @@ if (number < 12) {
   console.log('el número no es 123123125')
 }
 
-const numb1 =6 ;
-const numb2 =12 ;
+const numb1 = 6 ;
+const numb2 = 12 ;
 
 const sum = numb1 + numb2;
 console.log (sum);
@@ -88,5 +88,67 @@ const name2 = "Susana";
 console.log(name2.length);
 
 
+//FUNCIONES
+
+// Multiplicación, Media y Pares
+
+function mult (a, b){
+  console.log(a * b);
+  return a * b;
+}
+const multResult = mult (2, 2);
+mult ();
+
+//
+
+function sum2 (a, b, c, d){
+  console.log(a + b + c + d)
+  return a + b + c + d
+}
+
+const sumResult = sum2(2, 2, 2, 2)
+console.log(sumResult)
+
+function split (){
+  console.log(sumResult / 4)
+  return sumResult / 4
+}
+
+sum2 ();
+split ();
+
+//
+
+const getIsPar = () => {
+const num = 10
+return num % 2 == 0;
+}
+
+getIsPar()
+console.log(getIsPar())
+
+//TICKET IVA
+
+const ticketPrice = 5
+console.log(`El precio del articulo es de ${ticketPrice}€`)
+
+const iva = 2.1
+console.log(`El iva es del 21%`)
+
+const finalPrice2 = () => {
+  console.log(`Precio final con IVA ${ticketPrice * iva}`)
+}
+
+finalPrice2 ();
+
+//Variables goblales
 
 
+let secretLetter = 'y';
+function mySecretLetter() {
+  secretLetter = 'x';
+  return secretLetter;
+}
+
+console.log(mySecretLetter());
+console.log(secretLetter);
