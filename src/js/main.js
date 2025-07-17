@@ -20,9 +20,6 @@ let myaddress = 'Madrid, 28009';
 myaddress = 'Valladolid, 47009';
 //document.querySelector(".myaddress").innerHTML = myAddress;
 
-
-
-
 //
 
 /*const firstName = Maria;
@@ -152,3 +149,53 @@ function mySecretLetter() {
 
 console.log(mySecretLetter());
 console.log(secretLetter);
+
+//CALCULADORA MODELO DE CAJA
+const boxWidth = 34
+const contentWidth = 30
+const borderSize = 5
+const paddingSize = 15
+const boxCalc = () => {
+  
+}
+
+const contentBox = false
+
+//Bio de Adalabers
+
+const adalaber1 ={
+  name:"susana",
+  age:34,
+  prof:"peridodista",
+
+}
+console.log (`Mi nombre es ${adalaber1.name},tengo ${adalaber1.age} años y soy ${adalaber1.prof}`)
+
+const adalaber2 ={
+  name:"Rocio",
+  age:25,
+  prof:"actriz",
+
+}
+console.log (`Mi nombre es ${adalaber2.name},tengo ${adalaber2.age} años y soy ${adalaber2.prof}`)
+
+//A la carrera
+adalaber1.run = () => {
+  console.log (`Estoy Corriendo`);
+};
+adalaber1.run();
+
+const distance = 50;
+adalaber1.runMarathon = () => {
+  console.log (`Estoy Corriendo un maraton de ${distance} kms`);
+};
+adalaber1.runMarathon();
+
+//bio de Adalabers2
+function showBio(person) { 
+  console.log(`Mi nombre es ${person.name}, tengo ${person.age} años y soy ${person.prof}`); 
+};
+
+showBio(adalaber1);
+showBio(adalaber2);
+
